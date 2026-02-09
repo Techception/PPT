@@ -20,7 +20,8 @@ print(full_name)
 print(f"{full_name.title()}")
 
 #WhiteSpace  
-
 print("python")
 print("\tpython")
 
+#new line
+print("languages:\nPython\nJava")
