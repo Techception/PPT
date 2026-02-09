@@ -1,2 +1,4 @@
-message = "Hello World"
+message = "hello world"
+
 print(message)
+print(message.title())
