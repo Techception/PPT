@@ -18,3 +18,9 @@ print(full_name)
 
 #f-string + Title case 
 print(f"{full_name.title()}")
+
+#WhiteSpace  
+
+print("python")
+print("\tpython")
+
