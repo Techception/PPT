@@ -24,4 +24,4 @@ print("python")
 print("\tpython",end="\n\n")
 
 #new line
-print("languages:\n\tPython\n\tC\n\tJava")
+print("languages:\n>Python\n>C\n>Java")
