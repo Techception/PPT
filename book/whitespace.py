@@ -12,7 +12,11 @@ print(onetwo)
 onethree = one.strip()
 print(onethree)
 
-two = '\ttab\t'
+two = '\t0\ttab\t0\t'
 twoone = two.strip()
 print(two)
 print(twoone)
+twothree = two.rstrip()
+print(twothree)
+twofour = two.lstrip()
+print(twofour)
