@@ -25,3 +25,7 @@ print("\tpython",end="\n\n")
 
 #new line
 print("languages:\n\tPython\n\tC\n\tJava")
+
+#whitespace
+fav_lang = 'Python   '
+
