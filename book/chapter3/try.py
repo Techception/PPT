@@ -79,3 +79,31 @@ del inviteList[0]
 del inviteList[0]
 
 print(inviteList)
+
+likeToVisit = ["Lorraine's bedroom", "Anne's bedroom", "Praj's place", "Kev's place", "My place"] 
+
+print(likeToVisit)
+print("\n")
+print(sorted(likeToVisit))
+print("\n")
+print(likeToVisit)
+print("\n")
+print(sorted(likeToVisit,reverse=True))
+print("\n")
+print(likeToVisit)
+print("\n")
+print(likeToVisit.reverse())
+print("\n")
+print(likeToVisit)
+print("\n")
+print(likeToVisit.reverse())
+print("\n")
+print(likeToVisit)
+print("\n")
+print(likeToVisit.sort())
+print("\n")
+print(likeToVisit)
+print("\n")
+print(likeToVisit.sort(reverse=True))
+print("\n")
+print(likeToVisit)
