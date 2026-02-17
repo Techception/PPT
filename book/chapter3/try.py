@@ -58,3 +58,24 @@ strList = strList.replace(']','')
 strList = strList.replace("'","")
 print(f"everyone coming are:",strList)
 
+#3-7
+print("\n")
+message = f"Hey {strList} I regret to announce that the table hasnt arrived so I can only invite 2 persons"
+print(message)
+
+while len(inviteList) > 2: 
+    reject = inviteList.pop()
+    print(f"I'm sorry {reject}, but you cannot come") 
+
+strList = str(inviteList);
+strList = strList.replace('[','')
+strList = strList.replace(']','')
+strList = strList.replace("'","")
+
+print("\n")
+print(f"Hi {strList.replace(' ,',' and')}, you are both invited")
+
+del inviteList[0]
+del inviteList[0]
+
+print(inviteList)
