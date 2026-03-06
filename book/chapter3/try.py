@@ -107,3 +107,33 @@ print("\n")
 print(likeToVisit.sort(reverse=True))
 print("\n")
 print(likeToVisit)
+
+#3-8
+print('\n')
+locations = ['Spain', 'England', 'Germany', 'France', 'Egypt']
+
+print('original list') 
+print(locations)
+
+print('sorted list')
+print(sorted(locations))
+
+print('reverse sorted list')
+print(sorted(locations,reverse='true'))
+
+print('permanent reversed list') 
+locations.reverse()
+print(locations)
+
+print('permanent reversed list back to original') 
+locations.reverse()
+print(locations)
+
+print('permanent sorted list')
+locations.sort()
+print(locations)
+
+print('permanent sorted list in reverse') 
+locations.sort(reverse='true')
+print(locations)
+
