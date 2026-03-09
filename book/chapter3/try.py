@@ -137,3 +137,60 @@ print('permanent sorted list in reverse')
 locations.sort(reverse='true')
 print(locations)
 
+#3-9
+print('the number of guests comming to the dinner are:',len(likeToVisit))
+
+#3-10
+print('\n')
+items = ['Monitor', 'Keyboard', 'Mouse', 'CPU', 'Chassis', 'Motherboard', 'RAM'] 
+print('the size of the list is:',len(items))
+print('\n')
+print('the first item is:', items[0])
+print('\n')
+print('the last item is:', items[-1])
+print('\n')
+print('the second item is:', items[2].upper())
+print('\n')
+newItem = 'Trackpad'
+items.append(newItem)
+print('adding the new item', newItem, 'so the list is now', items)
+print('\n')
+newItem = 'GPU' 
+items.insert(int(len(items)/2), newItem)
+print('adding the new item', newItem, 'to the middle of the list', items)
+print('\n')
+print('removed', items[0], 'from', items)
+print('\n')
+del items[0]
+print(items)
+print('\n')
+print('now i want to pop off', items[-1])
+print('\n')
+popped = items.pop
+print('list is now:', items, 'and', popped, 'is now popped off and saved to a variable')
+print('\n')
+print('it is also possible to pop a different index')
+print('\n')
+print('in this example i will pop off', items[1], ' that is the second item in the list', items)
+print('\n')
+popped = items.pop(1)
+print(popped, 'is popped off and now the list is', items) 
+print('\n')
+print('i can now also straight remove an item from', items)
+print('\n')
+print('from', items, f'I will remove "{newItem}" from the list which leaves us with,', items.remove(newItem)) #i need to fix this one 
+print('\n')
+
+print('I will now temp sort', items, 'using sorted()', sorted(items), 'and prove that it is only temp sorted byt printing the original list again', items)
+print('\n')
+
+print('I will now temp sort', items, 'in reverse using sorted(reverse = "true")', sorted(items, reverse ='true'), 'and prove that it is only temp sorted byt printing the original list again', items)
+print('\n')
+
+
+print('I will now permanently reverse order', items, 'items.reverse()', items.reverse(), items, 'and then put in back to the original order by reversing it back', items.reverse(), items)
+print('\n')
+
+print('similar to reverse, the sort() method also permanently sorts the order of the list going from', items, 'to', items.sort(), items, 'in this case soring it alphabetically and not on the index like reverse did.  however its not really possible to put it back to how it was after doing this, even after trying reverse ="true"', items.sort(reverse=True), items)
+print('\n')
+
