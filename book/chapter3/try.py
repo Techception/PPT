@@ -1,3 +1,5 @@
+import sys
+
 #3-1
 print('3,1')
 print('----------------------------')
@@ -252,7 +254,10 @@ print('I will now temp sort', items, 'in reverse using sorted(reverse = "true")'
 print('\n')
 
 
-print('I will now permanently reverse order', items, 'items.reverse()', items.reverse(), items, 'and then put in back to the original order by reversing it back', items.reverse(), items)
+items.reverse()
+print('I will now permanently reverse order', items, 'items.reverse()',  items, 'and then put in back to the original order by reversing it back', items)
+items.reverse()
+print(items)
 print('\n')
 
 print('similar to reverse, the sort() method also permanently sorts the order of the list going from', items, 'to', items.sort(), items, 'in this case soring it alphabetically and not on the index like reverse did.  however its not really possible to put it back to how it was after doing this, even after trying reverse ="true"', items.sort(reverse=True), items)
@@ -261,4 +266,11 @@ print('\n')
 print('----------------------------')
 
 #3-11
+print("be aware that python try.py | less means that the stderr is not piped to less thats why the error shows in the middle of the screen")
+print("but this can be resolved by 2>&1 which means the stderr is put into the stdout then it can be piped to less")
+sys.stdout.flush()
+print("be aware that python try.py | less means that the stderr is not piped to less thats why the error shows in the middle of the screen")
+print("intentional error", flush=True)
+print(items[10], flush=True)
+print(likeToVisit[5], flush=True)
 
