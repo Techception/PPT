@@ -37,6 +37,7 @@ del sub1
 del sub2
 del sub3
 ####################################################
+print('\n')
 #4-11
 task = 'My Pizzas, Your Pizzas:'
 description = 'using the pizza list from ex 4-1,'+ str(pizzas) +', I will make a copy of the list for a friend and do the following:'
@@ -44,11 +45,32 @@ sub1 = 'Add  new pizza to the original list.'
 sub2 = 'Add a different pizza to the list friend_pizzas.'
 sub3 = 'Prove that these are separate lists.' 
 
+friend_pizzas = pizzas[:]
+
 print(task)
 print(description)
+
 print('1.',sub1, pizzas)
-print('\t->')
+new = 'margherita'
+pizzas.append(new)
+print('\t->', pizzas, 'added', new )
+del new 
+
 print('2.',sub2, pizzas)
-print('\t->')
+new = 'BBQ'
+friend_pizzas.append(new)
+print('\t->', friend_pizzas, 'added', new)
+del new 
+
 print('3.',sub3, pizzas)
-print('\t->')
+print('\nMy favourite pizzas are:')
+for pizza in pizzas:
+    print('\t->', pizza.title())
+
+print("\nMy friend's favourite pizzas are:")
+for pizza in friend_pizzas:
+    print('\t->', pizza.title())
+
+
+
+
