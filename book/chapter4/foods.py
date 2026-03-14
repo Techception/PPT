@@ -71,6 +71,21 @@ print("\nMy friend's favourite pizzas are:")
 for pizza in friend_pizzas:
     print('\t->', pizza.title())
 
+####################################################
+print('\n')
+#4-12
+task = 'More Loops:'
+description = 'printing some more loops from examples in the exercise' 
 
+my_foods = ['pizzas', 'falafel', 'carrot cake']
+friend_foods = my_foods[:]
+my_foods.append('cannoli')
+friend_foods.append('ice cream')
+print('My foods are:')
+for food in my_foods:
+    print(food)
 
-
+print('\n')
+print("Friend's foods are:")
+for food in friend_foods:
+    print(food)
