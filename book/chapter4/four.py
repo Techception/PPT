@@ -1,7 +1,8 @@
 div = "--------------------------------------------------------"
 ex = "4-13"
 task = "Buffet"
-desc = "A buffet-style restaurant offers only five basic foods. Think of five sinmple foods and store them in a tuple."
+desc = """A buffet-style restaurant offers only five basic foods. 
+Think of five sinmple foods and store them in a tuple."""
 
 sub1 = "Print loop:"
 sub2 = "Intentional fail modification:"

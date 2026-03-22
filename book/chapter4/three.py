@@ -16,7 +16,10 @@ div = '-----------------------------'
 ####################################################
 #4-10
 task = 'Slices:'
-description = 'using the multiples of 3 list, '+ str(multiples) +', written in the previous chaper I will add several lines to the end of the program to achieve:'
+description = """using the multiples of 3 list, '+ str(multiples) +', 
+written in the previous chaper I will add several lines to the end 
+of the program to achieve:"""
+
 sub1 = 'Slice to print first 3 items in the list.' 
 sub2 = 'Slice to print middle 3 items from the list.' 
 sub3 = 'Slice to print last 3 items in the list.'
@@ -40,7 +43,8 @@ del sub3
 print('\n')
 #4-11
 task = 'My Pizzas, Your Pizzas:'
-description = 'using the pizza list from ex 4-1,'+ str(pizzas) +', I will make a copy of the list for a friend and do the following:'
+description = """using the pizza list from ex 4-1,'+ str(pizzas) +', 
+I will make a copy of the list for a friend and do the following:"""
 sub1 = 'Add  new pizza to the original list.'
 sub2 = 'Add a different pizza to the list friend_pizzas.'
 sub3 = 'Prove that these are separate lists.' 
