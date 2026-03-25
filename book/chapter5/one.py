@@ -36,4 +36,30 @@ print("is money greater than 1,000,000? I predict false")
 print(money > 1_000_000)
 print("\n") 
 
+#5-2
+###############################################################################
+colours = ['red','green','blue']
+print("Primary Colours =", colours)
+colour = 'red'
+print(colour, "in primary colours? predict True")
+print(colour.lower() in [c.lower() for c in colours])
+
+print("\n")
+colour = 'purple'
+print(colour, "in", str(colours) +"? predict False")
+#print(str([colour.lower() for colour in colours]))
+print(colour.lower() in [c.lower() for c in colours])
+
+print("\n")
+invalid = "table"
+print(invalid, "not in primary colours? predict True")
+print(colour.lower() not in [c.lower() for c in colours])
+
+print("\n")
+colours.append('orange')
+fruits = ['apple', 'orange', 'banana']
+fruit = 'orange'
+print("Colours =", colours)
+print(fruit, "is in both", str(colours), "and", str(fruits) +"? predict True")
+print(fruit in (colours and fruits))
 
