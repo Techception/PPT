@@ -62,4 +62,14 @@ fruit = 'orange'
 print("Colours =", colours)
 print(fruit, "is in both", str(colours), "and", str(fruits) +"? predict True")
 print(fruit in (colours and fruits))
+print("\n")
 
+print(list(range(0,100,10)))
+for number in list(range(0,100,10)):
+    print("number =", number)
+    if number < 50:
+        print("is number >= 50? predict: False")
+        print(number >= 50)
+    else:
+        print("is number >= 50? predict: True") 
+        print(number >= 50)
