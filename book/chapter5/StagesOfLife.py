@@ -3,9 +3,10 @@ task = """
     Set a value for the varidable age, and then:
 """
 
-task1 = """If the person is less than 2 years old. print a message that the 
-    person is a baby
-"""
+task1 = (
+        "If the person is less than 2 years old. print a message that the " 
+        "person is a baby"
+        )
 
 task2 = """If the person is at lease 4 years old but less and 13, print a 
     message thatthe person is a kid
