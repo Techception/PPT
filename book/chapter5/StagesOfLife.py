@@ -38,7 +38,7 @@ print(
     end="\n\n"
     )
 
-x = int(input("enter an age"))
+x = int(input("enter an age: "))
 
 if x < 2:
     print("the person is a baby")
