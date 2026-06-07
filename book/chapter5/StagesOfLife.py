@@ -36,3 +36,19 @@ print(
     "\n\t"+task4, 
     "\n\t"+task5
     )
+
+x = int(input("enter an age"))
+
+if x < 2:
+    print("the person is a baby")
+elif x >= 4 and x <= 13:
+    print("the person is a kid")
+elif x >= 13 and x <= 0:
+    print("the person is a Teenager")
+elif x >= 20 and x <= 65:
+    print("The person is an adult")
+elif X >= 65:
+    print("the person is an elder")
+else:
+    print("invalid")
+
