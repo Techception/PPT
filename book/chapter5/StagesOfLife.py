@@ -40,17 +40,29 @@ print(
 
 x = int(input("Enter an age: "))
 
-text = "The person is"
+text = "the person is"
+person = None
 if x < 2:
-    print(text,"a baby")
+    person = "baby"
+    #print(text,"a baby")
 elif x >= 4 and x <= 13:
-    print(text, "a kid")
+    person = "kid"
+    #print(text, "a kid")
 elif x >= 13 and x <= 0:
-    print(text, "a Teenager")
+    person = "teenager"
+    #print(text, "a Teenager")
 elif x >= 20 and x <= 65:
-    print(text, "an adult")
+    person = "adult"
+    #print(text, "an adult")
 elif X >= 65:
-    print(text, "an elder")
+    person = "elder"
+    #print(text, "an elder")
 else:
     print("invalid")
 
+article = "a"
+vowels = "aeiou"
+if person[0] in vowels:
+    article = "an"
+
+print(text.capitalize(), article, person)
