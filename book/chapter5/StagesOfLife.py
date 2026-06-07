@@ -34,7 +34,8 @@ print(
     "\n\t"+task2, 
     "\n\t"+task3, 
     "\n\t"+task4, 
-    "\n\t"+task5
+    "\n\t"+task5,
+    end="\n\n"
     )
 
 x = int(input("enter an age"))
